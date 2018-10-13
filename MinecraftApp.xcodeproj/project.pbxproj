@@ -12,6 +12,7 @@
 		E8E81B0221728AA1007FBF0C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8E81B0021728AA1007FBF0C /* Main.storyboard */; };
 		E8E81B0421728AA1007FBF0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8E81B0321728AA1007FBF0C /* Assets.xcassets */; };
 		E8E81B0721728AA1007FBF0C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8E81B0521728AA1007FBF0C /* LaunchScreen.storyboard */; };
+		E8E81B1021728E6E007FBF0C /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8E81B0F21728E6E007FBF0C /* LoginController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		E8E81B0321728AA1007FBF0C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E8E81B0621728AA1007FBF0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E8E81B0821728AA1007FBF0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8E81B0F21728E6E007FBF0C /* LoginController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +56,23 @@
 		E8E81AFB21728AA1007FBF0C /* MinecraftApp */ = {
 			isa = PBXGroup;
 			children = (
+				E8E81B0E21728B69007FBF0C /* Controller */,
 				E8E81AFC21728AA1007FBF0C /* AppDelegate.swift */,
-				E8E81AFE21728AA1007FBF0C /* ViewController.swift */,
 				E8E81B0021728AA1007FBF0C /* Main.storyboard */,
 				E8E81B0321728AA1007FBF0C /* Assets.xcassets */,
 				E8E81B0521728AA1007FBF0C /* LaunchScreen.storyboard */,
 				E8E81B0821728AA1007FBF0C /* Info.plist */,
 			);
 			path = MinecraftApp;
+			sourceTree = "<group>";
+		};
+		E8E81B0E21728B69007FBF0C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E8E81B0F21728E6E007FBF0C /* LoginController.swift */,
+				E8E81AFE21728AA1007FBF0C /* ViewController.swift */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E8E81AFF21728AA1007FBF0C /* ViewController.swift in Sources */,
+				E8E81B1021728E6E007FBF0C /* LoginController.swift in Sources */,
 				E8E81AFD21728AA1007FBF0C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
